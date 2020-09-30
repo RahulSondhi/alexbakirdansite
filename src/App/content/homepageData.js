@@ -36,7 +36,6 @@ export const HomepageData = [
         key: "home1",
         type: "card",
         title: "A Midday Snack",
-        subtitle: "pancakes",
         src: Img1,
     },
     {
