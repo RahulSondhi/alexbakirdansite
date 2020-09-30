@@ -4,8 +4,6 @@ import {Drawer, Button} from 'antd';
 
 import GeneralNavbar from './rightNavbar';
 
-import Logo from '../assets/logo.png';
-
 class Navbar extends Component {
 
     state = {
@@ -32,11 +30,11 @@ class Navbar extends Component {
     render() {
         return (
             <nav className="menuBar grid-x">
-                <div className="logo">
+                {/* <div className="logo">
                     <NavLink to={"/"}>
-                        {/* <img src={Logo} alt="AlexBakirdan Logo"/> */}
+                      Alex Bakirdan
                     </NavLink>
-                </div>
+                </div> */}
                 <div className="menuCon grid-x align-middle">
                     <div className="rightMenu">
                         <GeneralNavbar mode={'horizontal'} type={this.state.type}/>
