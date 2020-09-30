@@ -13,7 +13,7 @@ class TeamPage extends Component {
         return(
             <>
                 <Row className="teamContainer">
-                    <Col id="teamIntroTitle" xs={{span:10,offset:1}} lg={{span:6,offset:3}}> About the Team </Col>
+                    <Col id="teamIntroTitle" xs={{span:10,offset:1}} lg={{span:6,offset:3}}> About Me </Col>
                 </Row>
 
                 <Row className="teamContainer">
