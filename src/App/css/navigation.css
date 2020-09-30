@@ -85,16 +85,16 @@
 .barsMenuBtn {
     float: right;
     height: 2.5em !important;
-    padding: 0 0.75em 0.75em !important;
+    padding: 0.2em 0.75em 0.75em !important;
     margin-right: 1em;
-    background-color: var(--navy-blue) !important;
-    border-color: var(--navy-blue) !important;
+    background-color: var(--light-blue) !important;
+    border-color: var(--light-blue) !important;
     align-items: center;
 }
 
 .barsMenuBtn:hover,
 .barsMenuBtn:active {
-    background-color: var(--light-navy-blue) !important;
+    background-color: var(--navy-blue) !important;
 }
 
 .barsBtn {
@@ -128,7 +128,7 @@
 .ant-drawer-body,
 .ant-drawer-content,
 .ant-drawer-header {
-    background-color: var(--navy-blue) !important;
+    background-color: var(--light-blue) !important;
 }
 
 .ant-drawer-body .ant-menu-horizontal > .ant-menu-item,
