@@ -1,0 +1,80 @@
+.teamContainer{
+    margin-bottom: 1em;
+}
+
+#teamTitle{
+    padding-top: 1em;
+    padding-bottom: 2em;
+    width: 100%;
+    text-align: center;
+}
+
+#teamTitle img{
+    width: 60%;
+    margin: auto;
+}
+
+#teamLogo {
+    border-radius: 2em;
+    margin: auto !important;
+}
+
+#teamLogo img{
+    width: 100%;
+    margin-bottom: 2em;
+    margin-top: 2em;
+}
+
+.teamText {
+    margin: auto;
+}
+
+#teamIntroTitle{
+    margin:auto;
+    text-align: center;
+    font-size: 3em;
+    font-weight: bold;
+}
+
+.teamGap{
+    margin-top: 10em;
+}
+
+#teamTesterLeftTitle{
+    text-align: right;
+    margin: auto;
+}
+
+#teamTesterRightTitle{
+    text-align: left;
+    margin: auto;
+}
+
+#teamTesterLeftTitle img,
+#teamTesterRightTitle img{
+    width: 100%;
+}
+
+#teamTesterTitle{
+    margin:auto;
+    text-align: center;
+    font-size: 3em;
+    font-weight: bold;
+}
+
+#teamAlphaTitle{
+    margin:auto;
+    text-align: center;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+#teamBetaTitle{
+    margin:auto;
+    text-align: center;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+
+

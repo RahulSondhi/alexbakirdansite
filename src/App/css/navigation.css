@@ -1,0 +1,205 @@
+/* CSS for Navigation + Footer */
+
+/* Navbar */
+
+.menuBar {
+    position: sticky;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 8%;
+    background-color: var(--light-blue);
+    padding: 0.5%;
+    margin-bottom: 1%;
+    z-index: 1;
+}
+
+.ant-menu-dark,
+.ant-menu-dark .ant-menu-sub {
+    background: rgba(0,0,0,0) !important;
+    color: white !important;
+}
+
+.ant-menu-item:active,
+.ant-menu-submenu:active{
+    background: rgba(0,0,0,0) !important;
+}
+
+.logo {
+    max-width: 15em;
+    height: 100%;
+    float: left;
+}
+
+.logo img {
+    display: inline-block;
+    padding: 0.25em 0.125em;
+    max-width: 100%;
+    height: 100%;
+}
+
+/* Right Menu */
+.menuCon {
+    width: calc(100% - 15em);
+    float: right;
+    height: 100%;
+    align-items: center;
+}
+
+.menuCon .ant-menu-submenu-title {
+    padding: 0px 20px;
+    height: 100%;
+}
+
+.menuCon .ant-menu-horizontal {
+    border-bottom: none;
+}
+
+.menuCon .ant-menu{
+    float: right;
+}
+
+.menuCon .rightMenu{
+    width: 100%;
+    height: 100%;
+}
+
+.menuCon .ant-menu-item,
+.menuCon .ant-menu-submenu{
+    vertical-align: top;
+}
+
+.ant-menu.ant-menu-dark .ant-menu-item-selected, .ant-menu-submenu-popup.ant-menu-dark .ant-menu-item-selected{
+    background-color: rgba(0,0,0,0) !important;
+}
+
+/* Hamburger Btn */
+.barsMenu{
+    width: 100%;
+    display: none;
+    height: 100%;
+    align-items: center;
+    flex-direction: row-reverse;
+}
+
+.barsMenuBtn {
+    float: right;
+    height: 2.5em !important;
+    padding: 0 0.75em 0.75em !important;
+    margin-right: 1em;
+    background-color: var(--navy-blue) !important;
+    border-color: var(--navy-blue) !important;
+    align-items: center;
+}
+
+.barsMenuBtn:hover,
+.barsMenuBtn:active {
+    background-color: var(--light-navy-blue) !important;
+}
+
+.barsBtn {
+    display: block;
+    width: 1.5em;
+    height: 0.15em;
+    background: #fff;
+    position: relative;
+}
+
+.barsBtn:after,
+.barsBtn:before {
+    content: attr(x);
+    width: 1.5em;
+    height: 0.15em;
+    position: absolute;
+    top: -0.5em;
+    left: 0;
+    background: #fff;
+}
+.barsBtn:after {
+    top: auto;
+    bottom: -0.5em;
+}
+
+/* Side Menu */
+.ant-drawer-body {
+    padding: 0;
+}
+
+.ant-drawer-body,
+.ant-drawer-content,
+.ant-drawer-header {
+    background-color: var(--navy-blue) !important;
+}
+
+.ant-drawer-body .ant-menu-horizontal > .ant-menu-item,
+.ant-drawer-body .ant-menu-horizontal > .ant-menu-submenu {
+    display: inline-block;
+    width: 100%;
+}
+.ant-drawer-body .ant-menu-horizontal {
+    border-bottom: none;
+}
+.ant-drawer-body .ant-menu-horizontal > .ant-menu-item:hover {
+    border-bottom-color: transparent;
+}
+
+/* side Menu title */
+.ant-drawer-title {
+    color: white!important;
+}
+
+/* Footer */
+
+.footer {
+    position: sticky;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 5%;
+    background-color: var(--light-blue);
+    margin-top: 1%;
+    z-index: 1;
+}
+
+.company{
+    float: left;
+    padding-top: 0.6em;
+    padding-left: 1em;
+    height: 100%;
+}
+
+.socials{
+    float: right;
+    margin: auto;
+    height: 100%;
+}
+
+.socials a{
+    color: white !important;
+    margin-right: 1.5em;
+    font-size: 1.6em;
+}
+
+/* Page Size Listener */
+@media(max-width: 61em) {
+    .barsMenu {
+        display: flex;
+    }
+    .leftMenu,
+    .rightMenu {
+        display: none;
+    }
+    .logo img {
+        margin-left: -1.25em;
+    }
+    .menuCon .ant-menu-item,
+    .menuCon .ant-menu-submenu-title {
+        padding: 0.0625em 1.25em;
+    }
+    .logo a {
+        padding: 0.625em 1.25em;
+    }
+    .socials{
+        display: none;
+    }
+}

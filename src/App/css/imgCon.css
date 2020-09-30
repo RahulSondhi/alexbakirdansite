@@ -1,0 +1,112 @@
+.imgConContainer{
+    width: 60%;
+    margin: auto;
+    background-color: var(--dark-blue);
+    border-color: white;
+    border-style: solid;
+    border-radius: 0.8em;
+    border-width: 0.4em;
+    margin-top: 3em;
+    margin-bottom: 3em;
+    padding: 2em;
+    z-index: 1;
+}
+
+.imgConReverse{
+    flex-direction: row-reverse;
+}
+
+.imgConImg{
+    padding: 1em;
+    margin: auto;
+}
+
+.imgConImg img{
+    width: 100%;
+}
+
+.imgConText{
+    margin:auto;
+}
+
+.imgConTextTitle{
+    font-size: 2.5em;
+    font-weight: bold;
+    text-align: center;
+    margin: auto;
+    overflow-wrap: anywhere;
+}
+.imgConTextSubtitle{
+    font-size: 1.75em;
+    font-weight: bold;
+    text-align: center;
+    margin: auto;
+}
+.imgConTextBody{
+    margin-top: 2em;
+    margin-left: 0.25em;
+}
+
+.imgConTextFooter{
+    margin-top: 2em;
+}
+
+.IconPreview{
+    text-align: center;
+    margin: auto;
+    font-size: 2em;
+    color: var(--light-blue);
+}
+
+.IconPreview svg{
+    border-radius: 100%;
+    background-color: white;
+    padding: 0.1em;
+}
+
+.IconPreview svg:hover{
+    padding: 0.1em;
+    box-shadow:
+        inset 0 0 50px #fff,      /* inner white */
+        inset 20px 0 80px #f0f,   /* inner left magenta short */
+        inset -20px 0 80px #0ff,  /* inner right cyan short */
+        inset 20px 0 300px #f0f,  /* inner left magenta broad */
+        inset -20px 0 300px #0ff, /* inner right cyan broad */
+        0 0 50px #fff,            /* outer white */
+        -10px 0 80px #f0f,        /* outer left magenta */
+        10px 0 80px #0ff;         /* outer right cyan */
+}
+
+.imgConCardCon{
+    margin:auto;
+}
+
+.imgConCard{
+    background-color: var(--dark-blue);
+    border-color: white;
+    border-style: solid;
+    border-radius: 0.8em;
+    border-width: 0.4em;
+    margin: auto;
+    margin-top: 3em;
+    margin-bottom: 3em;
+    padding: 2em;
+    z-index: 1;
+}
+
+.ant-tooltip-inner{
+    text-transform: capitalize;
+}
+
+/* Page Size Listener */
+@media(max-width: 71em) {
+    .imgConContainer{
+        width: 90%;
+    }
+    .imgConTextTitle{
+        font-size: 2em;
+    }
+    .imgConTextSubtitle{
+        font-size: 1.2em;
+    }
+}
