@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import {NavLink} from "react-router-dom";
 import {Row, Col} from 'react-bootstrap';
-import {Tooltip} from 'antd';
+import {Tooltip, Image} from 'antd';
 
 import { GlobalOutlined, GithubOutlined, YoutubeOutlined, TwitterOutlined, LinkedinOutlined, FacebookOutlined, InstagramOutlined, LinkOutlined  } from '@ant-design/icons';
 
@@ -23,7 +23,7 @@ class ImgCon extends Component {
             return (
                 <Row className={this.item.reverse ? 'imgConContainer  imgConReverse' : 'imgConContainer '}>
                     <Col className="imgConImg" xs={10} lg={{span:5,offset:1}}>
-                        <img src={this.item.src} alt="random img"/>
+                        <Image src={this.item.src} alt="random img"/>
                     </Col>
                     <Col className="imgConText" xs={12} lg={{span:7,offset:0}}>
                         <Row className="imgConTextTitle"> {this.item.title} </Row>
@@ -39,18 +39,14 @@ class ImgCon extends Component {
         }else if(this.item.type === "card"){
 
             return (
-                <Col xs={{span:11}} sm={{span:6}} md={{span:4}}  xl={{span:3}} className="imgConCardCon">
+                <Col xs={{span:11}} sm={{span:6}} lg={{span:4}} className="imgConCardCon">
                     <Col xs={{span:11}} className='imgConCard'>
                         <Col className="imgConImg" xs={12}>
-                            <img src={this.item.src} alt="random img"/>
+                            <Image src={this.item.src} alt="random img"/>
                         </Col>
                         <Col className="imgConText" xs={12}>
                             <Row className="imgConTextTitle"> {this.item.title} </Row>
                             <Row className="imgConTextSubtitle"> {this.item.subtitle} </Row>
-                            <Row className="imgConTextBody"> {this.item.text} </Row>
-                            <Row className="imgConTextFooter">
-                                <IconPreview items={this.item.socialMedia} className=""/>
-                            </Row>
                         </Col>
                     </Col>
                 </Col>
@@ -73,10 +69,10 @@ class ImgCon extends Component {
         } else if(this.item.type === "basic"){
             return (
                 <Row className={this.item.reverse ? 'imgConContainer  imgConReverse' : 'imgConContainer '}>
-                    <Col className="imgConImg" xs={6} lg={{span:3,offset:1}}>
-                        <img src={this.item.src} alt="random img"/>
+                    <Col className="imgConImg" xs={10} lg={{span:5}}>
+                        <Image src={this.item.src} alt="random img"/>
                     </Col>
-                    <Col className="imgConText" xs={12} lg={{span:7,offset:1}}>
+                    <Col className="imgConText" xs={12} lg={{span:7}}>
                         <Col className="imgConTextTitle"> {this.item.title} </Col>
                         <Col className="imgConTextBody"> {this.item.text} </Col>
                     </Col>

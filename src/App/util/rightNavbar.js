@@ -19,25 +19,11 @@ class GeneralNavbar extends Component {
                     </NavLink>
                 </Menu.Item>
 
-                {/* Blog */}
-                <Menu.Item key="blog" disabled>
-                    <NavLink to="/blog">
-                        Blog
-                    </NavLink>
-                </Menu.Item>
-
                 {/* Team */}
-                <Menu.Item key="team">
-                    <NavLink to="/team">
-                        Team
+                <Menu.Item key="about">
+                    <NavLink to="/about">
+                        About Me
                     </NavLink>
-                </Menu.Item>
-
-                {/* Buy Game */}
-                <Menu.Item key="steam">
-                    <a href="https://store.steampowered.com/app/1262500/Mirastell/">
-                        Buy The Game
-                    </a>
                 </Menu.Item>
             </Menu>
         )

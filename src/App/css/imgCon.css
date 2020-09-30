@@ -30,14 +30,14 @@
 }
 
 .imgConTextTitle{
-    font-size: 2.5em;
+    font-size: 1.75em;
     font-weight: bold;
     text-align: center;
     margin: auto;
     overflow-wrap: anywhere;
 }
 .imgConTextSubtitle{
-    font-size: 1.75em;
+    font-size: 1.25em;
     font-weight: bold;
     text-align: center;
     margin: auto;
@@ -91,7 +91,6 @@
     margin-top: 3em;
     margin-bottom: 3em;
     padding: 2em;
-    z-index: 1;
 }
 
 .ant-tooltip-inner{

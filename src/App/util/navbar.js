@@ -34,7 +34,7 @@ class Navbar extends Component {
             <nav className="menuBar grid-x">
                 <div className="logo">
                     <NavLink to={"/"}>
-                        <img src={Logo} alt="Mirastell Logo"/>
+                        {/* <img src={Logo} alt="AlexBakirdan Logo"/> */}
                     </NavLink>
                 </div>
                 <div className="menuCon grid-x align-middle">
