@@ -23,7 +23,6 @@ import Img22 from "../assets/Photos/img22.jpg";
 import Img23 from "../assets/Photos/img23.jpg";
 import Img24 from "../assets/Photos/img24.jpg";
 import Img25 from "../assets/Photos/img25.jpg";
-import Img26 from "../assets/Photos/img26.jpg";
 import Img27 from "../assets/Photos/img27.jpg";
 
 import TeamSec1 from "../assets/Teampage/photography.JPG";
@@ -181,12 +180,6 @@ export const HomepageData = [
         type: "card",
         title: "Pistils Out",
         src: Img25,
-    },
-    {
-        key: "home26",
-        type: "card",
-        title: "What a Wonderful World",
-        src: Img26,
     },
     {
         key: "home27",
