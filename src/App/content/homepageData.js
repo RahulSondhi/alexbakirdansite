@@ -23,7 +23,7 @@ import Img22 from "../assets/Photos/img22.jpg";
 import Img23 from "../assets/Photos/img23.jpg";
 import Img24 from "../assets/Photos/img24.jpg";
 import Img25 from "../assets/Photos/img25.jpg";
-import Img27 from "../assets/Photos/img27.jpg";
+import Img26 from "../assets/Photos/img26.jpg";
 
 import TeamSec1 from "../assets/Teampage/photography.JPG";
 import TeamSec2 from "../assets/Teampage/journalism.JPG";
@@ -185,7 +185,7 @@ export const HomepageData = [
         key: "home27",
         type: "card",
         title: "Staring Back",
-        src: Img27,
+        src: Img26,
     },
 ];
 
